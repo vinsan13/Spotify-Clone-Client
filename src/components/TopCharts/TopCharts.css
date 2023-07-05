@@ -1,0 +1,65 @@
+.topcharts{
+    padding-left: 10px;
+}
+.charts_header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.charts_header h4{
+    flex: 1;
+    font-weight: 900;
+    color: antiquewhite;
+}
+
+.charts_header a{
+    flex: 0.35;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 12px;
+}
+
+.top5_charts{
+    height: 55vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    scroll-behavior: smooth;
+}
+
+.top5_charts::-webkit-scrollbar{
+    width: 0;
+}
+
+.chart{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.chart img{
+    width: 50px;
+    margin: 0 10px;
+}
+
+.chart_detail h4{
+    margin: 0;
+}
+.chart_detail p{
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.play_pause{
+    font-size: 25px;
+    position: absolute;
+    right: 50px;
+}
+
+
+

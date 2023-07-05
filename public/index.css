@@ -1,0 +1,10 @@
+html {
+    
+    background: rgb(10, 6, 89);
+    background: linear-gradient(90deg, rgba(10, 6, 89, 1) 44%, rgba(3, 49, 182, 1) 100%, rgba(7, 62, 134, 1) 100%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}

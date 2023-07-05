@@ -1,0 +1,55 @@
+.topartists{
+    height: 175px;
+    padding-left: 10px;
+    width: 100%;
+}
+.artists_header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.artists_header h4{
+    flex: 1;
+    font-weight: 900;
+    color: antiquewhite;
+}
+
+.artists_header a{
+    flex: 0.35;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 12px;
+}
+
+.artists_wrapper{
+    display: flex;
+    overflow-x:auto;
+    overflow-y: hidden;
+    max-width: 27vw;
+    height: 100px;
+    scroll-behavior:smooth;
+}
+
+
+.wrapper_item img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.artists_wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+@media only screen and (max-width: 1180px) {
+    .artists_wrapper{
+        max-width: 100vw;
+    }
+    
+}
+
+
+
+
